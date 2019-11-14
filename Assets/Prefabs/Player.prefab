@@ -127,7 +127,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 811fd36d42787c04ba0a4f0df9b177e6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _sensitivity: {x: 2, y: 2}
+  _sensitivity: {x: 3, y: 3}
   _pitchBounds: {x: -75, y: 75}
 --- !u!1 &244899450649760949
 GameObject:
