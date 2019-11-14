@@ -45,7 +45,7 @@ namespace Gun
                     }
                 }
             }
-
+            // Pull the object smoothly if one is picked.
             if (_grabbedObject)
             {
                 var grabbedTransform = _grabbedObject.transform;
