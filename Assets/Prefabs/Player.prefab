@@ -176,7 +176,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _launchForce: 1200
   _torqueForce: 1200
-  _range: 10
+  _range: 5
   _pullSpeed: 0.1
   _grabbedObject: {fileID: 0}
   _pullTransform: {fileID: 244899449787336788}
@@ -367,7 +367,7 @@ Rigidbody:
   m_UseGravity: 1
   m_IsKinematic: 0
   m_Interpolate: 0
-  m_Constraints: 80
+  m_Constraints: 112
   m_CollisionDetection: 0
 --- !u!114 &244899451130195724
 MonoBehaviour:
@@ -381,9 +381,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4ea00496c213c69499b4345f0922b83b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _forward: 119
-  _backwards: 115
-  _left: 97
-  _right: 100
+  _forwardKey: 119
+  _backwardsKey: 115
+  _leftKey: 97
+  _rightKey: 100
+  _jumpKey: 32
   _speed: 0.1
+  _jumpForce: 300
+  _maxJumps: 2
   _cameraTransform: {fileID: 244899450236622792}
